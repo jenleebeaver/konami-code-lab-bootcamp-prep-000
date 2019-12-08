@@ -10,28 +10,23 @@ const codes = [
   "b",
   "a"
 ];
- function init(){
+function init() {
 
-let index = 0;
+        var index = 0;
+        const getElement = document.querySelector('body');
 
-document.body.addEventListener ("keydown", (thingPressed)) => {
-  const key = thingPressed.key
-  console.log(key)
+        getElement.addEventListener('keydown', function(e) {
+            if (code[index] === e.which || code[index] === e.detail) {
+                index++;
 
-  if (codes[index] == key){
-    ++index
-  }
-
-  else {
-    idx = 0
-  }
-
-  console.log(index)
-  if (index == 10) {
-    window.alert("Hurray!");
-  index = 0
-  }
-}
-};
+                if (index === code.length) {
+                    alert("CHEAT EXECUTED!!");
+                    index = 0;
+                }
+            } else {
+                index = 0;
+            }
+        })
+    }
 
 init();
