@@ -1,4 +1,4 @@
-/*const codes = [
+const codes = [
   "ArrowUp",
   "ArrowUp",
   "ArrowDown",
@@ -33,9 +33,9 @@ console.log(key);
 })
 };
 
-init();*/
 
-const codes = [
+
+/*const codes = [
   "ArrowUp",
   "ArrowUp",
   "ArrowDown",
@@ -62,4 +62,4 @@ function init() {
     }
 
   });
-}
+}*/
