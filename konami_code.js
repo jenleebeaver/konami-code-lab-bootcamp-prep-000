@@ -11,27 +11,23 @@ const codes = [
   "a"
 ];
 
-function init(){
-let index = 0
+let index = 0;
 
-window.addEventListener ("keydown", handleKeyDown, false);
+document.body.addEventListener ("keydown", (thingPressed) => {
+  const key = thingPressed.key
+  console.log(key)
 
- function handleKeyDown(e) {
-  const key = e.key;
-  console.log(key);
+  if (codes[index] == key){
+    ++index
+  }
 
+  else {
+    idx = 0
+  }
 
-  if (key === codes[index]) {
-   index++;
-
-   if (index === codes.length) {
-     window.alert("Hurray!");
-
-     index = 0;
-   }
-   else {
-     index = 0;
-   }
- }
-}
-}
+  console.log(index)
+  if (index == 10) {
+    alert("Hurray!";
+  index = 0)
+  }
+});
