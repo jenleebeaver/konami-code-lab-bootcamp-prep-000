@@ -18,7 +18,7 @@ document.body.addEventListener ("keydown", (thingPressed) => {
   const key = thingPressed.key
 
 
-  if (codes[index] == key){
+  if (codes[index] === key){
     index = ++index;
   }
 
@@ -26,7 +26,7 @@ document.body.addEventListener ("keydown", (thingPressed) => {
     index = 0
   }
 
-  if (index == codes.length) {
+  if (index === codes.length) {
     window.alert("Hurray!");
   index = 0
   }
