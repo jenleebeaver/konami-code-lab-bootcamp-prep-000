@@ -10,7 +10,8 @@ const codes = [
   "b",
   "a"
 ];
-
+ function init(){
+   
 let index = 0;
 
 document.body.addEventListener ("keydown", (thingPressed)) => {
@@ -30,6 +31,7 @@ document.body.addEventListener ("keydown", (thingPressed)) => {
     alert("Hurray!";
   index = 0)
   }
-});
+})
+};
 
 init();
