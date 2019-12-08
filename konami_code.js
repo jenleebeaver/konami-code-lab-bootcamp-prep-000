@@ -31,3 +31,5 @@ document.body.addEventListener ("keydown", (thingPressed) => {
   index = 0)
   }
 });
+
+init();
