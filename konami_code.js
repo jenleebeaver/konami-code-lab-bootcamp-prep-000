@@ -31,7 +31,7 @@ document.body.addEventListener ("keydown", (thingPressed) => {
     window.alert("Hurray!");
   index = 0
   }
-}
+})
 };
 
 init();
