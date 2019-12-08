@@ -19,7 +19,7 @@ document.body.addEventListener ("keydown", (thingPressed) => {
   console.log(key)
 
   if (codes[index] == key){
-    ++index
+    index = ++index;
   }
 
   else {
