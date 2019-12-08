@@ -29,7 +29,7 @@ document.body.addEventListener ("keydown", (thingPressed)) => {
   console.log(index)
   if (index == 10) {
     window.alert("Hurray!");
-  index = 0)
+  index = 0;
   }
 }
 };
