@@ -27,7 +27,7 @@ document.body.addEventListener ("keydown", (thingPressed) => {
   }
 
   console.log(index)
-  if (index == 10) {
+  if (index == codes.length) {
     window.alert("Hurray!");
   index = 0
   }
